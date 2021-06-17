@@ -1,0 +1,22 @@
+#include<iostream>
+
+int main()
+{
+	//1.display the numbers
+	printf("pick a number:\n1.0\n2.1\n3.wrong choice");
+	//2. Read choice
+	int choice=0;
+	scanf("%d",&choice);
+	//3.display choice
+	
+	switch(choice)
+	{
+		case1:
+		  printf("you picked number:0");
+		case2:
+		  printf("you picked number:1");
+		  case3:
+		   printf("you picked number:wrong choice");
+		   
+	}
+}
